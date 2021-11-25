@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup_activity"
+    android:background="@drawable/signupbckgrnd">
+
+    <TextView
+        android:id="@+id/sign_up"
+        android:layout_width="76dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:text="@string/sign_up"
+        android:textAppearance="@style/sign_up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <EditText
+        android:id="@+id/mobile_number_signup_id"
+        android:layout_width="327dp"
+        android:layout_height="56dp"
+        android:background="@drawable/roundrec"
+        android:hint="Enter Mobile Number"
+        android:inputType="number"
+        android:paddingStart="10dp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.297"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintVertical_bias="0.053">
+
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+
+        android:lineSpacingExtra="0sp"
+        android:text="@string/title"
+        android:textAppearance="@style/title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sign_up"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <Button
+        android:id="@+id/button_otpsend_id"
+        android:layout_width="334dp"
+        android:layout_height="62dp"
+        android:background="@drawable/ic_button"
+        android:text="Send OTP"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mobile_number_signup_id"
+        app:layout_constraintVertical_bias="0.24">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/logintoaccount_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login to my Account"
+        android:textColor="#404CCF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_otpsend_id"
+        app:layout_constraintVertical_bias="0.339">
+
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
