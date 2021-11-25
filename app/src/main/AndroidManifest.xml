@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LKLearning">
+        <activity android:name=".AboutApp"></activity>
+        <activity android:name=".Login" />
+        <activity android:name=".MenuScreen" />
         <activity
             android:name=".AvailableMaterial"
             android:exported="true" />
