@@ -8,9 +8,14 @@
         <entry key="..\:/LKLearning/app/src/main/res/drawable/ic_av.xml" value="0.2203125" />
         <entry key="..\:/LKLearning/app/src/main/res/drawable/ic_e2.xml" value="0.2203125" />
         <entry key="..\:/LKLearning/app/src/main/res/drawable/ic_ell2.xml" value="0.2203125" />
+        <entry key="..\:/LKLearning/app/src/main/res/drawable/ic_prev.xml" value="0.2203125" />
+        <entry key="..\:/LKLearning/app/src/main/res/drawable/rec.xml" value="0.2203125" />
         <entry key="..\:/LKLearning/app/src/main/res/drawable/roundrec.xml" value="0.2203125" />
         <entry key="..\:/LKLearning/app/src/main/res/layout/activity_available_material.xml" value="0.20416666666666666" />
+        <entry key="..\:/LKLearning/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/LKLearning/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/LKLearning/app/src/main/res/layout/as.xml" value="0.20416666666666666" />
+        <entry key="..\:/LKLearning/app/src/main/res/layout/otp_verification.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
