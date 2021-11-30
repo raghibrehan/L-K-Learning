@@ -3,19 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/LKLearning/app/src/main/res/drawable/cardbg.xml" value="0.2203125" />
+        <entry key="..\:/LKLearning/app/src/main/res/drawable/dialogbg.xml" value="0.2203125" />
+        <entry key="..\:/LKLearning/app/src/main/res/drawable/done.xml" value="0.2203125" />
         <entry key="..\:/LKLearning/app/src/main/res/drawable/downarrow.xml" value="0.2203125" />
         <entry key="..\:/LKLearning/app/src/main/res/drawable/ell.xml" value="0.2203125" />
         <entry key="..\:/LKLearning/app/src/main/res/drawable/ic_av.xml" value="0.2203125" />
         <entry key="..\:/LKLearning/app/src/main/res/drawable/ic_e2.xml" value="0.2203125" />
         <entry key="..\:/LKLearning/app/src/main/res/drawable/ic_ell2.xml" value="0.2203125" />
         <entry key="..\:/LKLearning/app/src/main/res/drawable/ic_prev.xml" value="0.2203125" />
+        <entry key="..\:/LKLearning/app/src/main/res/drawable/next.xml" value="0.2203125" />
         <entry key="..\:/LKLearning/app/src/main/res/drawable/rec.xml" value="0.2203125" />
         <entry key="..\:/LKLearning/app/src/main/res/drawable/roundrec.xml" value="0.2203125" />
         <entry key="..\:/LKLearning/app/src/main/res/layout/activity_available_material.xml" value="0.20416666666666666" />
+        <entry key="..\:/LKLearning/app/src/main/res/layout/activity_home.xml" value="0.19010416666666666" />
         <entry key="..\:/LKLearning/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/LKLearning/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/LKLearning/app/src/main/res/layout/activity_menu_screen.xml" value="0.19010416666666666" />
+        <entry key="..\:/LKLearning/app/src/main/res/layout/activity_signup.xml" value="0.2" />
         <entry key="..\:/LKLearning/app/src/main/res/layout/as.xml" value="0.20416666666666666" />
+        <entry key="..\:/LKLearning/app/src/main/res/layout/enter_pass_dialog.xml" value="0.25" />
+        <entry key="..\:/LKLearning/app/src/main/res/layout/entermobdialog.xml" value="0.20416666666666666" />
         <entry key="..\:/LKLearning/app/src/main/res/layout/otp_verification.xml" value="0.20416666666666666" />
+        <entry key="..\:/LKLearning/app/src/main/res/layout/otp_verify_success.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
