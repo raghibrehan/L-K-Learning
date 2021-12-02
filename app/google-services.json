@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1022599066672",
+    "project_id": "l-k-learning-app",
+    "storage_bucket": "l-k-learning-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022599066672:android:af923873a4895463d7e9f5",
+        "android_client_info": {
+          "package_name": "com.dtech.lklearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022599066672-l8h0tpk79dqu3kvajg4sn2il6dfh4p7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb9kN0_hTth6NxBsixeTln4x1T2FrjtyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022599066672-l8h0tpk79dqu3kvajg4sn2il6dfh4p7j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
