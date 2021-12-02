@@ -1,4 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item android:id="@+id/back_menu_id"
+        android:icon="@drawable/ic_prev"
+        android:title="" />
+
+    <item android:id="@+id/profile_id"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile"/>
+
+    <item android:id="@+id/materials_id"
+        android:icon="@drawable/ic_material"
+        android:title="Materials"
+        />
+
+    <item android:id="@+id/my_subscriptions_id"
+        android:icon="@drawable/ic_subscriptions"
+        android:title="My Subscriptions"/>
+
+    <item android:id="@+id/favourites_id"
+        android:icon="@drawable/ic_favourites"
+        android:title="Favourites"/>
+
+    <item android:id="@+id/feedback_id"
+        android:icon="@drawable/ic_feedback"
+        android:title="Feedback"/>
+
+    <item android:id="@+id/chat_id"
+        android:icon="@drawable/ic_chat"
+        android:title="Chat"/>
+
+    <item android:id="@+id/contact_us_id"
+        android:icon="@drawable/ic_call"
+        android:title="Contact Us"/>
+
+   <group>
+
+
+       <item android:id="@+id/logout_id"
+           android:icon="@drawable/ic_logout"
+           android:title="Logout"/>
+
+   </group>
+
+
+
 </menu>

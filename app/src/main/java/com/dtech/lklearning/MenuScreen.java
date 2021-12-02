@@ -34,7 +34,7 @@ public class MenuScreen extends AppCompatActivity {
         });
         //on click on available materials button
         availablematerial.setOnClickListener(v->{
-            startActivity(new Intent(MenuScreen.this,AboutApp.class));
+            startActivity(new Intent(MenuScreen.this,AvailableMaterial.class));
 
         });
 
