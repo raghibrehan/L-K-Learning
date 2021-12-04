@@ -7,12 +7,20 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1022599066672:android:af923873a4895463d7e9f5",
+        "mobilesdk_app_id": "1:1022599066672:android:ef056404582d58cbd7e9f5",
         "android_client_info": {
           "package_name": "com.dtech.lklearning"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "1022599066672-6c3gh7igcbpfrm7p035pp2qvkfpj31lh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dtech.lklearning",
+            "certificate_hash": "ea621900064e2c45004a89f97e4ca70e63eb581e"
+          }
+        },
         {
           "client_id": "1022599066672-l8h0tpk79dqu3kvajg4sn2il6dfh4p7j.apps.googleusercontent.com",
           "client_type": 3
