@@ -91,6 +91,7 @@ public class OtpVerification extends AppCompatActivity {
             String code = phoneAuthCredential.getSmsCode();
 
             if (code!=null) {
+                otp_box.setText(code);
                 verifycode(code);
             }
         }

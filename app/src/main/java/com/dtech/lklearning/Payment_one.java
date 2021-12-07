@@ -195,6 +195,8 @@ public class Payment_one extends AppCompatActivity {
             if (networkInfo!=null && networkInfo.isConnected() && networkInfo.isConnectedOrConnecting() && networkInfo.isAvailable()){
                 return true;
 
+
+
             }
         }
         return false;
