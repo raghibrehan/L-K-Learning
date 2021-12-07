@@ -19,7 +19,7 @@ import org.jetbrains.annotations.NotNull;
 
 public class Home extends AppCompatActivity {
 
-    ImageView drawer;
+    ImageView drawer,notification_home;
     NavigationView navigation;
     DrawerLayout drawerLayout;
 
@@ -34,6 +34,13 @@ public class Home extends AppCompatActivity {
         //declaring navigation for drawer
         navigation=findViewById(R.id.nav_menu);
         drawerLayout=findViewById(R.id.drawer);
+        notification_home=findViewById(R.id.notification_home_id);
+
+        //temporary for testing will be changed later
+        notification_home.setOnClickListener(v->{
+            startActivity(new Intent(Home.this,Payment_one.class));
+
+        });
 
         drawer.setOnClickListener(v->{
             drawerLayout.openDrawer(GravityCompat.START);

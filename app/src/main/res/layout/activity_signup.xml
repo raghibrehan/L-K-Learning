@@ -9,7 +9,7 @@
 
     <TextView
         android:id="@+id/sign_up"
-        android:layout_width="76dp"
+        android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"

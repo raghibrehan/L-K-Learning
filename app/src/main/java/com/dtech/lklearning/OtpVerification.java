@@ -4,11 +4,15 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.chaos.view.PinView;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.gms.tasks.TaskExecutors;
@@ -26,6 +30,9 @@ public class OtpVerification extends AppCompatActivity {
 
     String mob,verificationCodesent;
     FirebaseAuth mAuth;
+    TextView text,resend_otp;
+    PinView otp_box;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +41,18 @@ public class OtpVerification extends AppCompatActivity {
 
         mob = getIntent().getStringExtra("mob_no");
         mAuth=FirebaseAuth.getInstance();
+
+        text=findViewById(R.id.textView4);
+        text.setText("Enter the OTP send to "+mob);
+
+        otp_box=findViewById(R.id.otp_view);
+
+
+        resend_otp=findViewById(R.id.textView5);
+        resend_otp.setOnClickListener(v->{
+            sendVerificationCodeTOUser(mob);
+            Toast.makeText(this, "Sending otp please wait!", Toast.LENGTH_SHORT).show();
+        });
 
         //remember the user after first sign in
         SharedPreferences preferences=getSharedPreferences("checkbox", MODE_PRIVATE);
@@ -50,7 +69,7 @@ public class OtpVerification extends AppCompatActivity {
 
         PhoneAuthProvider.getInstance().verifyPhoneNumber(
                 "+91" + mob,
-                60,
+                30,
                 TimeUnit.SECONDS,
                 this,
                 mCallbacks
@@ -88,7 +107,7 @@ public class OtpVerification extends AppCompatActivity {
 
         PhoneAuthCredential credential=PhoneAuthProvider.getCredential(verificationCodesent,codeByUser);
 
-        Toast.makeText(this, credential.toString(), Toast.LENGTH_SHORT).show();
+
 
         signInTheUserByCredentials(credential);
 
